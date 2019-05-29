@@ -5,16 +5,13 @@ public class Match{
     private String team1;
     private String team2;
     private String winners;
-
     Match(int id, int season, String team1, String team2, String winners) {
         this.id = id;
         this.season = season;
         this.team1 = team1;
         this.team2 = team2;
         this.winners = winners;
-
     }
-
     public int getId() {
         return id;
     }
@@ -34,14 +31,10 @@ public class Match{
     public String getWinners() {
         return winners;
     }
-
-
-
     @Override
     public String toString() {
         return "Match [id=" + id + ", season=" + season + ", team1=" + team1+", team2="+team2+", winner"+winners+
                 "]";
     }
-
 }
 

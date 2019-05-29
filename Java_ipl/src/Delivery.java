@@ -1,13 +1,10 @@
 
 public class Delivery {
-
     private int id;
     private String bowling_team;
     private int extra_runs;
     private String bowler;
     private int total_runs;
-
-
     public int getTotal_runs() {
         return total_runs;
     }
@@ -15,6 +12,7 @@ public class Delivery {
     public int getId() {
         return id;
     }
+
     public String getBowler() {
         return bowler;
     }
