@@ -1,2 +1,0 @@
-# IplDataJava_Project
-
